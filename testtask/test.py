@@ -32,6 +32,6 @@ class DirSearch:
         # self.df.to_csv(self.root + '\\test.csv', sep='|', index=False)    To save without index
 
 dir = os.path.dirname(os.path.realpath(__file__))
-kek = DirSearch(dir)
+ds = DirSearch(dir)
 
-print(kek[0])
+print(ds[0])
