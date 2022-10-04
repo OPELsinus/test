@@ -25,6 +25,7 @@ class DirSearch:
                 else:
                     self.df.loc[self.count] = [path, pure_name[0], pure_name[1]]
                 self.count += 1
+                
         return self.df
 
     def save(self):
