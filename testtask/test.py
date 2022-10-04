@@ -29,7 +29,6 @@ class DirSearch:
 
     def save(self):
         self.df.to_excel(self.root + '\\result.xlsx')
-        # self.df.to_csv(self.root + '\\test.csv', sep='|', index=False)    To save without index
 
 dir = os.path.dirname(os.path.realpath(__file__))
 ds = DirSearch(dir)
